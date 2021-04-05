@@ -15,11 +15,6 @@ class CollectionViewController: UICollectionViewController {
                   "firstWorldChamp", "secondWorldChamp",
                   "thirdWorldChamp"]
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
-    
     // MARK: UICollectionViewDataSource
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
