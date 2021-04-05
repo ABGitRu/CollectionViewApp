@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		04933E93261B60C8002B146F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04933E92261B60C8002B146F /* AppDelegate.swift */; };
 		04933E95261B60C8002B146F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04933E94261B60C8002B146F /* SceneDelegate.swift */; };
-		04933E97261B60C8002B146F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04933E96261B60C8002B146F /* ViewController.swift */; };
 		04933E9A261B60C8002B146F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04933E98261B60C8002B146F /* Main.storyboard */; };
 		04933E9C261B60C9002B146F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04933E9B261B60C9002B146F /* Assets.xcassets */; };
 		04933E9F261B60C9002B146F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04933E9D261B60C9002B146F /* LaunchScreen.storyboard */; };
+		04933EA9261B61A1002B146F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04933EA8261B61A1002B146F /* CollectionViewController.swift */; };
+		04933EAC261B61C5002B146F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04933EAB261B61C5002B146F /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04933E8F261B60C8002B146F /* CollectionViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04933E92261B60C8002B146F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04933E94261B60C8002B146F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04933E96261B60C8002B146F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04933E99261B60C8002B146F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04933E9B261B60C9002B146F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04933E9E261B60C9002B146F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04933EA0261B60C9002B146F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04933EA8261B61A1002B146F /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		04933EAB261B61C5002B146F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				04933E92261B60C8002B146F /* AppDelegate.swift */,
 				04933E94261B60C8002B146F /* SceneDelegate.swift */,
-				04933E96261B60C8002B146F /* ViewController.swift */,
 				04933E98261B60C8002B146F /* Main.storyboard */,
+				04933EAB261B61C5002B146F /* CollectionViewCell.swift */,
+				04933EA8261B61A1002B146F /* CollectionViewController.swift */,
 				04933E9B261B60C9002B146F /* Assets.xcassets */,
 				04933E9D261B60C9002B146F /* LaunchScreen.storyboard */,
 				04933EA0261B60C9002B146F /* Info.plist */,
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04933E97261B60C8002B146F /* ViewController.swift in Sources */,
+				04933EA9261B61A1002B146F /* CollectionViewController.swift in Sources */,
 				04933E93261B60C8002B146F /* AppDelegate.swift in Sources */,
+				04933EAC261B61C5002B146F /* CollectionViewCell.swift in Sources */,
 				04933E95261B60C8002B146F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
